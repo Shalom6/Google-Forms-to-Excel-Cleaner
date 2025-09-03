@@ -5,6 +5,6 @@ def transform(df):
     df.loc[:, "email"] = df["email"].str.strip()
     df.loc[:, "address"] = df["address"].str.strip()
     df.loc[:, "phone_number"] = df["phone_number"].str.strip()
-    df = df[["timestamp", "name", "email", "address", "phone_number"]].copy()
+    df = df[["name", "email", "address", "phone_number"]].copy()
 
     return df

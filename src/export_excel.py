@@ -3,7 +3,7 @@
 import os
 from openpyxl import load_workbook
 
-def export_to_excel(df, filename="form_responses.xlsx"):
+def export_to_excel(df, filename="FoundationClassExam.xlsx"):
 
     # Ensure outputs folder exists
     output_folder = "outputs"
